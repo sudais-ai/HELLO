@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: legendary-n1l-bot
+    repo: https://github.com/awaiskhan1221/legendary-md
+    branch: main
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    autoDeploy: true
+    buildCommand: ""
+    startCommand: "node index.js"
+    envVars:
+      - key: SESSION_ID
+        required: true
+      - key: RENDER_APP_NAME
+        required: true
+      - key: RENDER_API
+        required: true
+      - key: DATABASE_URL
+        required: true
+      - key: BOT_INFO
+        required: false
+        value: "𝚴𝚯𝚻 BOT;𝚴𝚯𝚻 𝐔𝚪 𝚴𝚰𝐋;https://i.postimg.cc/RFddD6vj/93f52fb3-70a2-4d6b-b487-c3f3519b679b.jpg"
+      - key: WORK_TYPE
+        required: false
+        value: "private"
+      - key: STICKER_PACKNAME
+        required: false
+        value: "𝚴𝚯𝚻;𝚴𝚰𝐋"
+      - key: OWNER_NUMBER
+        required: false
+        value: "923474810818"

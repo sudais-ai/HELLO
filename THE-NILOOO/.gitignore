@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# WhatsApp Auth
+auth_info/
+database.db
+
+# Environment
+.env
+config.env
+
+# Logs
+*.log
+
+# Temporary files
+lib/temp/*
+!lib/temp/empty
+
+# OS
+.DS_Store
+Thumbs.db

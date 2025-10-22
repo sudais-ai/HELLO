@@ -1,0 +1,66 @@
+SOME FIXED ISSUEE 
+
+1.  MERA BOT HEROKU RAILWAY KOYEB RENDER HRR CHEEZ PRR DEPLOAY HONA CHAYE H 
+AUR DOSRE BAAT  HMM REPLIT PR DEPLOY KRNA CHATA HEE KEE HAME QRSCAN SHOWW KREE  AUR YA NODE INDEX.JS YA ESA COMMAND CONSOLE YA SHEEL ME DEDE BOT QR DE YAA START HOJAI  HAMM WHATSAPP SE CONNECT KRKE CONNECT HOJAI CONSOLE MEE AUR SESSION KA FOLDER BANAJAI WAHA  BS AUR BOT RUNN HO SAKEE 
+
+
+
+
+2.  
+╔═══════════════════════════════════════╗
+║  🔌 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽 𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶...  ║
+╚═══════════════════════════════════════╝
+
+
+╔═══════════════════════════════════════╗
+║  ✅ 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳!         ║
+║  🤖 𝚻𝚮𝚵 𝐍𝐈𝐋 𝐁𝐎𝐓 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈!       ║
+║  🔥 𝚴𝚯𝚻 𝐔𝚪 𝚴𝚰𝐋 👑                ║
+╚═══════════════════════════════════════╝
+
+📦 Loading bot plugins...
+⚠️  Could not load plugin tool.js: Cannot find module './Base'
+Require stack:
+- /home/runner/workspace/lib/Base/index.js
+- /home/runner/workspace/plugins/tool.js
+- /home/runner/workspace/lib/connection.js
+- /home/runner/workspace/lib/index.js
+- /home/runner/workspace/index.js
+✅ Loaded 19/20 plugins successfully!
+
+
+
+ESKE BAAD KUCH NHI ATA BSS CONSOLE ME BOT START SHOW KRKEE YAHA SE AGE NHI JATA CONSOLE ME YE SHOW KRTA HE REPLIT KE  FIXED THIS 
+
+
+
+
+
+
+
+
+3.  BOT KA NAME YE RAKHEE 
+
+𝚻𝚮𝚵 𝐋𝚵𝐆𝚴𝚴𝐃𝚫𝚪𝐘 𝚴𝚰𝐋 𝐁𝐎𝐓 🔥
+
+AUR YE NAME MERA USE KREE 
+
+𝚴𝚯𝚻 𝐔𝚪 𝚴𝚰𝐋 🔥
+
+
+
+4. MENE JO CONFIG FILE ME JO COMMAND AUR WO SABB ADD KE HE COMMAD WO BHE SAREE LOAD KREE SARA FILES LOAD HOO SAKEE HAMRE BOTT MEE AUR BOT THEEKE SE RUN HO SAKEE ACHEE TAREEKE SEE  FULL WORKING HU
+ 
+
+5.    MOST IMPORTANT jarvis namee hata dee harr jaga see mera name use hona chaye he harr jaga uskaa bot nhi he ey mera bot he harr cheez mera name se baanayee hamre leye es bot mee  jarvis name use hona nhi chaye aur bot complete krke de
+
+
+
+6. MERA BOT KE MENU AUR WELCOME HARR JAGA ME YE FONT FANCY ESE TRH FONT OR FANCY HONA CHAYE HE 
+
+𝚻𝚮𝚵 𝐋𝚵𝐆𝚴𝚴𝐃𝚫𝚪𝐘 𝚴𝚰𝐋 𝐁𝐎𝐓 
+ESE TARAH FANCY OR STYLE MEE HRR WORDS LEKHNA CHAYE HE 
+
+
+
+CHALEE BOT FIXED KRKEE RUN KRKEE DEDE HAMEE FULL WORKING HONA CHAYE HE HAMARA BOT

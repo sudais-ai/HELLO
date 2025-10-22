@@ -1,0 +1,169 @@
+{
+  "name": "𝚻𝚮𝚵 𝐁𝐎𝐓 - 𝚴𝚯𝚻 𝐔𝚪 𝚴𝚰𝐋",
+  "version": "1.0.0",
+  "description": "A Legendary WhatsApp Multi-Device Bot by 𝚻𝚮𝚵 𝐁𝐎𝐓",
+  "logo": "https://graph.org/file/1506e5842805b0968c5cf.mp4",
+  "keywords": ["whatsapp", "multi-device", "nilooo-bot", "baileys"],
+  "repository": "https://github.com/sudais-ai/THE-NILOOO.git",
+  "website": "https://github.com/sudais-ai",
+  "success_url": "/",
+  "stack": "container",
+
+  "env": {
+    "BOT_INFO": {
+      "description": "botname;ownername;image url",
+      "required": true,
+      "value": "𝚻𝚮𝚵 𝐁𝐎𝐓;𝚴𝚯𝚻 𝐔𝚪 𝚴𝚰𝐋;https://graph.org/file/1506e5842805b0968c5cf.mp4"
+    },
+    "MENU_FONT": {
+      "description": "Menu font settings",
+      "required": false,
+      "value": "1;1"
+    },
+    "AUDIO_DATA": {
+      "description": "audio metadata",
+      "required": true,
+      "value": "𝚴𝚯𝚻 𝐔𝚪 𝚴𝚰𝐋;𝚻𝚮𝚵 𝐋𝚵𝐆𝚴𝚴𝐃𝚫𝚪𝐘;https://graph.org/file/1506e5842805b0968c5cf.mp4"
+    },
+    "MEDIA_DATA": {
+      "description": "media header content",
+      "required": true,
+      "value": "💎 𝐌𝐞𝐧𝐮;𝚻𝚮𝚵 𝐁𝐎𝐓;https://graph.org/file/1506e5842805b0968c5cf.mp4"
+    },
+    "WARN_COUNT": {
+      "description": "Number of warnings before action",
+      "required": true,
+      "value": "3"
+    },
+    "HANDLERS": {
+      "description": "command prefix",
+      "required": true,
+      "value": "^[.,!]"
+    },
+    "SESSION_ID": {
+      "description": "WhatsApp session string (leave empty for QR scan)",
+      "required": false
+    },
+    "WORK_TYPE": {
+      "description": "public or private",
+      "required": true,
+      "value": "private"
+    },
+    "STICKER_PACKNAME": {
+      "description": "sticker credit tag",
+      "required": true,
+      "value": "𝚻𝚮𝚵 𝐋𝚵𝐆𝚴𝚴𝐃𝚫𝚪𝐘;𝚴𝚯𝚻 𝐔𝚪 𝚴𝚰𝐋"
+    },
+    "SUDO": {
+      "description": "owner number",
+      "required": true,
+      "value": "923474810818"
+    },
+    "ALLWAYS_ONLINE": {
+      "description": "always online indicator",
+      "required": false,
+      "value": "false"
+    },
+    "READ_MSG": {
+      "description": "auto read messages",
+      "required": false,
+      "value": "false"
+    },
+    "SAVE_STATUS": {
+      "description": "save viewed statuses",
+      "required": false,
+      "value": "false"
+    },
+    "STATUS_VIEW": {
+      "description": "view others' statuses",
+      "required": false,
+      "value": "false"
+    },
+    "REJECT_CALL": {
+      "description": "auto reject incoming calls",
+      "required": false,
+      "value": "false"
+    },
+    "ERROR_MSG": {
+      "description": "send error logs to owner",
+      "required": false,
+      "value": "true"
+    },
+    "BAN_CHATS": {
+      "description": "comma-separated blocked chats",
+      "required": false,
+      "value": ""
+    },
+    "STATUS_REPLY": {
+      "description": "auto reply to statuses",
+      "required": false,
+      "value": "true"
+    },
+    "STATUS_REPLY_MSG": {
+      "description": "custom status reply",
+      "required": false,
+      "value": "🔥 *𝚻𝚮𝚵 𝐁𝐎𝐓 noticed your status!*"
+    },
+    "CMD_REACTION": {
+      "description": "bot reacts to commands",
+      "required": false,
+      "value": "true"
+    },
+    "PM_BLOCKER": {
+      "description": "block PM messages",
+      "required": false,
+      "value": "false"
+    },
+    "LANGUAGE": {
+      "description": "bot language",
+      "required": true,
+      "value": "EN"
+    },
+    "PORT": {
+      "description": "server port",
+      "required": false,
+      "value": "8000"
+    },
+    "TIMEZONE": {
+      "description": "timezone for bot",
+      "required": false,
+      "value": "Asia/Karachi"
+    },
+    "ALIVE_DATA": {
+      "description": "alive message format",
+      "required": false,
+      "value": "_✨ *Hello &sender,*\n\n🤖 I am alive!\n🧠 Platform: &platform\n⏱ Runtime: &runtime\n\n_Use `.alive` to check again_"
+    },
+    "WELCOME_MSG": {
+      "description": "group welcome message",
+      "required": false,
+      "value": "🌟 *Welcome &mention to* _&gname_ 🥳\n— from 𝚻𝚮𝚵 𝐁𝐎𝐓"
+    },
+    "GOODBYE_MSG": {
+      "description": "group goodbye message",
+      "required": false,
+      "value": "👋 *Goodbye $mention!* We'll miss you!\n— 𝚻𝚮𝚵 𝐁𝐎𝐓"
+    }
+  },
+
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "as": "DATABASE"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}

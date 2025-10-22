@@ -1,0 +1,42 @@
+{
+  "name": "the-nilooo-bot",
+  "version": "1.0.0",
+  "description": "𝚻𝚮𝚵 𝐁𝐎𝐓 - 𝚴𝚯𝚻 𝐔𝚪 𝚴𝚰𝐋 - Advanced WhatsApp Multi-Device Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "multi-device",
+    "baileys",
+    "nilooo-bot",
+    "whatsapp-automation"
+  ],
+  "author": "𝚴𝚯𝚻 𝐔𝚪 𝚴𝚰𝐋",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "axios": "^1.6.0",
+    "browser-id3-writer": "^6.3.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.0",
+    "pdfkit": "^0.17.2",
+    "pg": "^8.16.3",
+    "pino": "^8.15.0",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudais-ai/THE-NILOOO.git"
+  }
+}
